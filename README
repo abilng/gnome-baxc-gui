@@ -1,0 +1,54 @@
+#			BAXC--BAckground Xml Creater
+#-----------------------------------------------------------------------------------
+# 
+# Generates xml code for background slide show of gnome.
+#
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 3 of the License, or
+# (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License along
+# with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+#Or see <http://www.gnu.org/licenses/>.
+#
+#Authors: Abil N George
+-----------------------------------------------------------------------------------------------------------------
+usage: baxc [-h] [-c] [-t Time in min] [-i] [-o Output file] [--version]
+            [-D DIRECTORY]
+
+BAckground Xml Creater-Create background slide show file for gnome
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -c, --cmd             For CmdLine Interface
+  -t Time in min, --time Time in min
+                        time duration(default: 30) in min
+  -i, --interactive     for interactive session
+  -o Output file, --output Output file
+                        Output file(default value=background.xml)
+  --version             show program's version number and exit
+  -D DIRECTORY, --directory DIRECTORY
+                        directory location of image files
+
+
+load file by 
+
+GNOME 3:" GSETTINGS_BACKEND=dconf gsettings set org.gnome.desktop.background picture-uri 'file://path\to\background.xml' "
+
+GNOME 2:" gconftool -s '/desktop/gnome/background/picture_filename' 'path\to\background.xml' -t string "
+
+------------------------------------------------------------------------------------------------------------------------
+
+Gnome BAXC 1.01 also include graphical user interface.BAXC's GUI uses QT4 (PYQT4).
+Qt is license  under the terms of the GNU Lesser General Public License (LGPL) version 2.1
+PyQt is available under the following licenses.
+   * GNU General Public License v2
+   * GNU General Public License v3
