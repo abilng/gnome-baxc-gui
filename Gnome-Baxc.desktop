@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.01
+Type=Application
+Terminal=false
+Exec=/usr/bin/gnome-baxc
+Name=Gnome-Baxc
+Icon=preferences-desktop-theme
+Categories=Settings;
