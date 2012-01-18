@@ -8,5 +8,5 @@ Type=Application
 Terminal=false
 Exec=gnome-baxc
 Name=Gnome-Baxc
-Icon=preferences-desktop-theme
+Icon=gnome-baxc
 Categories=Settings;
