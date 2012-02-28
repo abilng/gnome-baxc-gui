@@ -47,7 +47,7 @@ GNOME 2:" gconftool -s '/desktop/gnome/background/picture_filename' 'path\to\bac
 
 ------------------------------------------------------------------------------------------------------------------------
 
-Gnome BAXC 1.01 also include graphical user interface.BAXC's GUI uses QT4 (PYQT4).
+Gnome BAXC 2.00 also include graphical user interface.BAXC's GUI uses QT4 (PYQT4).
 Qt is license  under the terms of the GNU Lesser General Public License (LGPL) version 2.1
 PyQt is available under the following licenses.
    * GNU General Public License v2

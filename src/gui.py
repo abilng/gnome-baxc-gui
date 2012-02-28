@@ -1,13 +1,4 @@
 # -*- coding: utf-8 -*-
-
-# Form implementation generated from reading ui file 'untitled.ui'
-#
-# Created: Sat Dec 10 20:39:18 2011
-#      by: PyQt4 UI code generator 4.8.6
-#
-# WARNING! All changes made in this file will be lost!
-
-
 import xmlmsg
 from PyQt4 import QtCore, QtGui
 from PyQt4.QtGui import QFileDialog
@@ -50,7 +41,7 @@ class Ui_MainWindow(QtGui.QMainWindow):
 		self.pushButton_13 = QtGui.QPushButton(self.splitter_2)
 		self.pushButton_13.setText(QtGui.QApplication.translate("MainWindow", "Load images", None, QtGui.QApplication.UnicodeUTF8))
 		self.pushButton_15 = QtGui.QPushButton(self.splitter_2)
-		self.pushButton_15.setText(QtGui.QApplication.translate("MainWindow", "Create XML", None, QtGui.QApplication.UnicodeUTF8))
+		self.pushButton_15.setText(QtGui.QApplication.translate("MainWindow", "Set Background", None, QtGui.QApplication.UnicodeUTF8))
 		self.pushButton_14 = QtGui.QPushButton(self.splitter_2)
 		self.pushButton_14.setText(QtGui.QApplication.translate("MainWindow", "Cancel", None, QtGui.QApplication.UnicodeUTF8))
 		self.gridLayout_8.addWidget(self.splitter_2, 2, 1, 1, 1)

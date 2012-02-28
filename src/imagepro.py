@@ -18,13 +18,13 @@ def load(outfile):
 def close(outfile):
 	if image.count==0:
 		os.remove(outfile)
-		print ('No jpg image on that dir(or u said \'not to add\')')
+#		print ('No jpg image on that dir(or u said \'not to add\')')
 	else:
 		load(outfile)	
-		print ('\n added'+str(image.count)+'image(s) \noutput file:'+outfile+'\n')
-		print ('load(ed) file by \n')
-		print ('GNOME 3:\" GSETTINGS_BACKEND=dconf gsettings set org.gnome.desktop.background picture-uri \'file://'+outfile+'\' \"\n')
-		print ('GNOME 2:\" gconftool -s \'/desktop/gnome/background/picture_filename\' \''+outfile+'\' -t string \"\n ')
+#		print ('\n added'+str(image.count)+'image(s) \noutput file:'+outfile+'\n')
+#		print ('load(ed) file by \n')
+#		print ('GNOME 3:\" GSETTINGS_BACKEND=dconf gsettings set org.gnome.desktop.background picture-uri \'file://'+outfile+'\' \"\n')
+#		print ('GNOME 2:\" gconftool -s \'/desktop/gnome/background/picture_filename\' \''+outfile+'\' -t string \"\n ')
 
 
 
@@ -69,6 +69,4 @@ def askadd(i,action,path,ofile,x):
 		add(i,path,ofile,x)
 	elif ask_ok('Add '+i+' ?:'):
 		add(i)
-
-		
 
